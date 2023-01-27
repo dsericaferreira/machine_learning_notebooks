@@ -5,3 +5,5 @@
 
 <h3> Do you want to conttribute or have any questions? Contact me on: dsericaferreira@gmail.com
 Thanks a lot!! </h3>
+
+<h3> Attention!! These notebooks comments are in portuguese - pt-Br. Feel free to use and translate them if necessary!! </h3>
