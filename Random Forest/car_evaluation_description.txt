@@ -1,0 +1,87 @@
+=================================== English ==================================
+
+About car_evaluation.csv
+Car Evaluation Database was derived from a simple hierarchical decision model originally developed for the 
+demonstration of DEX, M. Bohanec, V. Rajkovic: Expert system for decision making. Sistemica 1(1), pp. 145-157, 1990.). 
+
+The model evaluates cars according to the following concept structure:
+
+CAR car acceptability
+. PRICE overall price
+. . buying buying price
+. . maint price of the maintenance
+. TECH technical characteristics
+. . COMFORT comfort
+. . . doors number of doors
+. . . persons capacity in terms of persons to carry
+. . . lug_boot the size of luggage boot
+. . safety estimated safety of the car
+
+Input attributes are printed in lowercase. Besides the target concept (CAR), 
+the model includes three intermediate concepts: PRICE, TECH, COMFORT. 
+Every concept is in the original model related to its lower level descendants by a set of examples (for these examples sets see [Web Link]).
+
+The Car Evaluation Database contains examples with the structural information removed, i.e., 
+directly relates CAR to the six input attributes: buying, maint, doors, persons, lug_boot, safety.
+
+Because of known underlying concept structure, 
+this database may be particularly useful for testing constructive induction and structure discovery methods.
+
+Attribute Information:
+
+Class Values:
+
+unacc, acc, good, vgood
+
+Attributes:
+
+buying: vhigh, high, med, low.
+maint: vhigh, high, med, low.
+doors: 2, 3, 4, 5more.
+persons: 2, 4, more.
+lug_boot: small, med, big.
+safety: low, med, high.
+
+=================================== Português ==================================
+
+Sobre car_evaluation.csv
+O banco de dados de avaliação de carros foi derivado de um modelo de decisão hierárquico simples desenvolvido originalmente para o
+demonstração de DEX, M. Bohanec, V. Rajkovic: Sistema especialista para tomada de decisão. Sistemica 1(1), pp. 145-157, 1990.).
+
+O modelo avalia os carros de acordo com a seguinte estrutura conceitual:
+
+Aceitabilidade de carro CAR
+. PREÇO preço total
+. . comprando preço de compra
+. . preço de manutenção
+. Características técnicas da TECNOLOGIA
+. . CONFORTO conforto
+. . . portas número de portas
+. . . capacidade de pessoas em termos de pessoas para transportar
+. . . lug_boot o tamanho da bagageira
+. . segurança segurança estimada do carro
+
+Os atributos de entrada são impressos em letras minúsculas. Além do conceito de meta (CAR),
+o modelo inclui três conceitos intermediários: PREÇO, TECNOLOGIA, CONFORTO.
+Cada conceito está no modelo original relacionado a seus descendentes de nível inferior por um conjunto de exemplos (para esses conjuntos de exemplos, consulte [Web Link]).
+
+O banco de dados de avaliação de carros contém exemplos com as informações estruturais removidas, ou seja,
+relaciona CAR diretamente com os seis atributos de entrada: compra, manutenção, portas, pessoas, lug_boot, segurança.
+
+Por causa da conhecida estrutura de conceito subjacente,
+esta base de dados pode ser particularmente útil para testar métodos de indução construtiva e descoberta de estruturas.
+
+Informações do atributo:
+
+Valores de classe:
+
+unacc, acc, bom, vgood
+
+Atributos:
+
+comprando: valto, alto, médio, baixo.
+manutenção: valto, alto, médio, baixo.
+portas: 2, 3, 4, 5 mais.
+pessoas: 2, 4, mais.
+lug_boot: pequeno, médio, grande.
+segurança: baixa, média, alta.
